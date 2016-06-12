@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShadersMapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MaterialsMapping>
+    <MaterialMapping>
+      <guid>9be3ccd4d97094c3783ff69875eeba33</guid>
+      <materialName>utd_woodenfence</materialName>
+      <origShaderName>Diffuse</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>0000000000000000f000000000000000</guid>
+      <materialName>Default-Diffuse</materialName>
+      <origShaderName>Diffuse</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>d79d62395dd71044ca7adfbc0d26a946</guid>
+      <materialName>window</materialName>
+      <origShaderName>Bumped Specular</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>8f292803b22abef49a56c0fe4b4bfcae</guid>
+      <materialName>wood_planks</materialName>
+      <origShaderName>Bumped Specular</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>99f8187ec93e0994aaf1158b098a38af</guid>
+      <materialName>wood_plane</materialName>
+      <origShaderName>Bumped Specular</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>8984e746e28a46d4dadd85ef223ccceb</guid>
+      <materialName>wall</materialName>
+      <origShaderName>Bumped Specular</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>0682658d326b5024185b86bfc374d86d</guid>
+      <materialName>roof</materialName>
+      <origShaderName>Transparent/Cutout/Bumped Diffuse</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>a48b7ba48205cad448574b198af8df09</guid>
+      <materialName>plants</materialName>
+      <origShaderName>Transparent/RyoumenSpecular</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>c41f4e58b9b62344c8afc022e4c3445e</guid>
+      <materialName>brick_medieval</materialName>
+      <origShaderName>Parallax Specular</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>385409dc2b2b98d4d8d4f35dd6581221</guid>
+      <materialName>cannon_0</materialName>
+      <origShaderName>Dif_Bump_Spec_Transp</origShaderName>
+    </MaterialMapping>
+    <MaterialMapping>
+      <guid>56fb94727e1183947a7f370ef1f9ec6a</guid>
+      <materialName>cannon_base_01</materialName>
+      <origShaderName>Dif_Bump_Spec_Transp</origShaderName>
+    </MaterialMapping>
+  </MaterialsMapping>
+  <ShadersMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/VertexLit</SrcShader>
+      <DstShader>GoHDR/Transparent/VertexLit CG</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Cutout/VertexLit</SrcShader>
+      <DstShader>GoHDR/Transparent/Cutout/VertexLit CG</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Self-Illumin/VertexLit</SrcShader>
+      <DstShader>GoHDR/Self-Illumin/VertexLit CG</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/Unlit (Supports Lightmap)</SrcShader>
+      <DstShader>GoHDR/Mobile/Unlit (Supports Lightmap) CG</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/VertexLit</SrcShader>
+      <DstShader>GoHDR/Reflective/VertexLit CG</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>VertexLit</SrcShader>
+      <DstShader>GoHDR/VertexLit CG</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Diffuse</SrcShader>
+      <DstShader>GoHDR/Transparent/Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Bumped Diffuse</SrcShader>
+      <DstShader>GoHDR/Transparent/Bumped Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Bumped Specular</SrcShader>
+      <DstShader>GoHDR/Transparent/Bumped Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Specular</SrcShader>
+      <DstShader>GoHDR/Transparent/Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Parallax Diffuse</SrcShader>
+      <DstShader>GoHDR/Transparent/Parallax Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Parallax Specular</SrcShader>
+      <DstShader>GoHDR/Transparent/Parallax Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Cutout/Diffuse</SrcShader>
+      <DstShader>GoHDR/Transparent/Cutout/Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Cutout/Bumped Diffuse</SrcShader>
+      <DstShader>GoHDR/Transparent/Cutout/Bumped Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Cutout/Bumped Specular</SrcShader>
+      <DstShader>GoHDR/Transparent/Cutout/Bumped Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Cutout/Specular</SrcShader>
+      <DstShader>GoHDR/Transparent/Cutout/Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/Cutout/Soft Edge Unlit</SrcShader>
+      <DstShader>GoHDR/Transparent/Cutout/Soft Edge Unlit</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Diffuse</SrcShader>
+      <DstShader>GoHDR/Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Decal</SrcShader>
+      <DstShader>GoHDR/Decal</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Self-Illumin/Diffuse</SrcShader>
+      <DstShader>GoHDR/Self-Illumin/Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Self-Illumin/Bumped Diffuse</SrcShader>
+      <DstShader>GoHDR/Self-Illumin/Bumped Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Self-Illumin/Specular</SrcShader>
+      <DstShader>GoHDR/Self-Illumin/Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Self-Illumin/Bumped Specular</SrcShader>
+      <DstShader>GoHDR/Self-Illumin/Bumped Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Self-Illumin/Parallax Diffuse</SrcShader>
+      <DstShader>GoHDR/Self-Illumin/Parallax Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Self-Illumin/Parallax Specular</SrcShader>
+      <DstShader>GoHDR/Self-Illumin/Parallax Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Legacy Shaders/Lightmapped/Diffuse</SrcShader>
+      <DstShader>GoHDR/Legacy Shaders/Lightmapped/Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Legacy Shaders/Lightmapped/Bumped Diffuse</SrcShader>
+      <DstShader>GoHDR/Legacy Shaders/Lightmapped/Bumped Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Bumped Diffuse</SrcShader>
+      <DstShader>GoHDR/Bumped Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Specular</SrcShader>
+      <DstShader>GoHDR/Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Bumped Specular</SrcShader>
+      <DstShader>GoHDR/Bumped Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Diffuse Detail</SrcShader>
+      <DstShader>GoHDR/Diffuse Detail</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Parallax Diffuse</SrcShader>
+      <DstShader>GoHDR/Parallax Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Parallax Specular</SrcShader>
+      <DstShader>GoHDR/Parallax Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/Bumped Diffuse</SrcShader>
+      <DstShader>GoHDR/Reflective/Bumped Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/Bumped Unlit</SrcShader>
+      <DstShader>GoHDR/Reflective/Bumped Unlit</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/Bumped Specular</SrcShader>
+      <DstShader>GoHDR/Reflective/Bumped Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/Diffuse</SrcShader>
+      <DstShader>GoHDR/Reflective/Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/Specular</SrcShader>
+      <DstShader>GoHDR/Reflective/Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/Parallax Diffuse</SrcShader>
+      <DstShader>GoHDR/Reflective/Parallax Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Reflective/Parallax Specular</SrcShader>
+      <DstShader>GoHDR/Reflective/Parallax Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>RenderFX/Skybox Cubed</SrcShader>
+      <DstShader>GoHDR/RenderFX/Skybox Cubed</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>RenderFX/Skybox</SrcShader>
+      <DstShader>GoHDR/RenderFX/Skybox</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/Skybox</SrcShader>
+      <DstShader>GoHDR/RenderFX/Skybox</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/VertexLit</SrcShader>
+      <DstShader>GoHDR/Mobile/VertexLit</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/Diffuse</SrcShader>
+      <DstShader>GoHDR/Mobile/Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/Bumped Diffuse</SrcShader>
+      <DstShader>GoHDR/Mobile/Bumped Diffuse</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/Bumped Specular (1 Directional Light)</SrcShader>
+      <DstShader>GoHDR/Mobile/Bumped Specular (1 Directional Light)</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/Bumped Specular</SrcShader>
+      <DstShader>GoHDR/Mobile/Bumped Specular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Mobile/VertexLit (Only Directional Lights)</SrcShader>
+      <DstShader>GoHDR/Mobile/VertexLit (Only Directional Lights)</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Unlit/Transparent</SrcShader>
+      <DstShader>GoHDR/Unlit/Transparent</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Unlit/Transparent Cutout</SrcShader>
+      <DstShader>GoHDR/Unlit/Transparent Cutout</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Unlit/Texture</SrcShader>
+      <DstShader>GoHDR/Unlit/Texture</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/VertexLit Blended</SrcShader>
+      <DstShader>GoHDR/Particles/Alpha Blended</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/Additive</SrcShader>
+      <DstShader>GoHDR/Particles/Additive</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/~Additive-Multiply</SrcShader>
+      <DstShader>GoHDR/Particles/~Additive-Multiply</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/Additive (Soft)</SrcShader>
+      <DstShader>GoHDR/Particles/Additive (Soft)</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/Alpha Blended</SrcShader>
+      <DstShader>GoHDR/Particles/Alpha Blended</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/Blend</SrcShader>
+      <DstShader>GoHDR/Particles/Blend</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/Multiply</SrcShader>
+      <DstShader>GoHDR/Particles/Multiply</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/Multiply (Double)</SrcShader>
+      <DstShader>GoHDR/Particles/Multiply (Double)</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Particles/Alpha Blended Premultiply</SrcShader>
+      <DstShader>GoHDR/Particles/Alpha Blended Premultiply</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Custom/Terrain_3Textures</SrcShader>
+      <DstShader>GoHDR/Custom/Terrain_3Textures</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Transparent/RyoumenSpecular</SrcShader>
+      <DstShader>GoHDR/Transparent/RyoumenSpecular</DstShader>
+    </ShaderMapping>
+    <ShaderMapping>
+      <SrcShader>Dif_Bump_Spec_Transp</SrcShader>
+      <DstShader>GoHDR/Dif_Bump_Spec_Transp</DstShader>
+    </ShaderMapping>
+  </ShadersMapping>
+</ShadersMapper>
